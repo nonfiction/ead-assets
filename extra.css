@@ -1,1 +1,4 @@
 /* extra css */
+
+/* Hide these for now */
+.social-bar a[href*="facebook"], .social-bar a[href*="twitter"] { display: none; }
