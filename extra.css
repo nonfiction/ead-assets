@@ -12,3 +12,4 @@
   margin: 0 auto; 
  }
 .ie8 .timeline { display: none; }
+.ie8 body.root > .social-bar { display: none; }
