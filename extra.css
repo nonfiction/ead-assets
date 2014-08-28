@@ -4,10 +4,10 @@
 .social-bar a[href*="facebook"], .social-bar a[href*="instagram"] { display: none; }
 
 /* Force IE8 to mobile size */
-.ie8 body.root > header,  
-.ie8 body.root > footer,  
-.ie8 body.root > div, 
-.ie8 body.root .container { 
+.ie8 body > header,  
+.ie8 body > footer,  
+.ie8 body > div, 
+.ie8 body .container { 
   width: 480px; 
   margin: 0 auto; 
  }
