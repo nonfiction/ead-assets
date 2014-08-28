@@ -6,7 +6,8 @@
 /* Force IE8 to mobile size */
 .ie8 body.root > header,  
 .ie8 body.root > footer,  
-.ie8 body.root > div { 
+.ie8 body.root > div, 
+.ie8 body.root .container { 
   width: 480px; 
   margin: 0 auto; 
  }
