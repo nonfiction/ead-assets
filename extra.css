@@ -11,5 +11,19 @@
   width: 480px; 
   margin: 0 auto; 
  }
+ 
+ /* Hide some elements in IE8 */
 .ie8 .timeline { display: none; }
 .ie8 body.root > .social-bar { display: none; }
+
+/* Text background color in IE8 */
+.ie8 div.text.over-image h1 { background: white; }
+.ie8 div.text.over-image h1.white { background: black; }
+.ie8 div.text.over-image h2 { background: white; }
+.ie8 div.text.over-image h2.white { background: black; }
+.ie8 div.text.over-image h3 { background: white; }
+.ie8 div.text.over-image h3.white { background: black; }
+.ie8 div.text.over-image h4 { background: white; }
+.ie8 div.text.over-image h4.white { background: black; }
+.ie8 div.text.over-image p { background: white; }
+.ie8 div.text.over-image p.white { background: black; }
