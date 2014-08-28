@@ -7,6 +7,7 @@
 .ie8 body > header,  
 .ie8 body > footer,  
 .ie8 body > div, 
+.ie8 body > article, 
 .ie8 body .container { 
   width: 480px; 
   margin: 0 auto; 
